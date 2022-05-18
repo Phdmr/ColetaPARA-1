@@ -1,0 +1,28 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#source {
+  background: palevioletred;
+  width: 100px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#target {
+  background: palegreen;
+  width: 360px;
+  height: 180px;
+  padding: 20px 40px;
+  text-align: center;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

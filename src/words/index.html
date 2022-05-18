@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jogo de palavras</title>
+  </head>
+  <body>
+    <img src="./assets/img/papa-capim.png" alt="pap capim" height="200px">
+    <h1>Eh muita melodia 🎶</h1>
+    <h2>Instruções: ordene as palavras para escutar a melodia.</h2>
+    <div id="jumbledWordsWrapper">
+      <span id="sonhos" data-source-id="sonhos" draggable="true">sonhos</span>
+      <span id="oh" data-source-id="oh" draggable="true">oh</span>
+      <span id="meus" data-source-id="meus" draggable="true">meus</span>
+      <span id="dos" data-source-id="dos" draggable="true">dos</span>
+      <span id="capim" data-source-id="capim" draggable="true">capim</span>
+      <span id="papa" data-source-id="papa" draggable="true">papa</span>
+    </div>
+
+    <div id="orderedWordsWrapper">
+      <span data-target-id="oh"></span>
+      <span data-target-id="papa"></span>
+      <span data-target-id="capim"></span>
+      <span data-target-id="dos"></span>
+      <span data-target-id="meus"></span>
+      <span data-target-id="sonhos"></span>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
