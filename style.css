@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: PublicPixel;
+  src: url("assets/fonts/PublicPixel.ttf") format("truetype");
+}
+
+.notSelected {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+  user-select: none;
+}
+
+#main {
+  display: grid;
+  grid-template-rows: 5vh 80vh 15vh;
+}
+
+.topbar {
+  font-family: PublicPixel;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+
+  background-color: black;
+}
+
+.objects {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: grey;
+}
+
+.object {
+  height: 9vh;
+  width: 9vh;
+  
+  border-radius: 50%;
+  border: 2px dashed black;
+
+  margin: 10px;
+  background-color: cyan;
+}
+
+#obj1 {
+  background-color: red;
+}
+#obj2 {
+  background-color: green;
+}
+#obj3 {
+  background-color: rebeccapurple;
+}
+#obj4 {
+  background-color: orange;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+
+  background-color: greenyellow;
+}
+
+.trash {
+  height: 10vh;
+  width: 10vh;
+  border: 2px dashed black;
+}
+
+#trash1 {
+  background-color: red;
+}
+#trash2 {
+  background-color: green;
+}
+#trash3 {
+  background-color: rebeccapurple;
+}
+#trash4 {
+  background-color: orange;
+}

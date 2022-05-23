@@ -1,0 +1,13 @@
+{
+    "short_name": "ColetaPARA",
+    "name": "ColetaPARA",
+    "icons": [
+      {
+        "src": "assets/icons/app.ico",
+        "sizes": "any"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }

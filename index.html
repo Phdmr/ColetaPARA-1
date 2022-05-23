@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <script src="src/index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>ColetaPARA - Grid style</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="topbar">
+        <div id="score">9999</div>
+        <div id="life">☻☻☻☻</div>
+      </div>
+      <div class="objects">
+        <div id="obj4" class="object notSelected"></div>
+        <div id="obj2" class="object notSelected"></div>
+        <div id="obj3" class="object notSelected"></div>
+        <div id="obj1" class="object notSelected"></div>
+      </div>
+      <div class="footer">
+        <div id="trash1" class="trash"></div>
+        <div id="trash2" class="trash"></div>
+        <div id="trash3" class="trash"></div>
+        <div id="trash4" class="trash"></div>
+      </div>
+      <button id="goFS">Iniciar Jogo</button>
+    </div>
+    <script>
+      var goFS = document.getElementById("goFS");
+      goFS.addEventListener(
+        "click",
+        function () {
+          var videoElement = document
+            .getElementById("main")
+            .requestFullscreen();
+          videoElement.requestFullscreen();
+        },
+        false
+      );
+    </script>
+  </body>
+</html>
