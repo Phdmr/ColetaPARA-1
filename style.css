@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -38,57 +40,98 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: grey;
+  background-color: #AACEC8;
 }
 
-.object {
+.objMetal {
   height: 9vh;
   width: 9vh;
   
   border-radius: 50%;
   border: 2px dashed black;
 
-  margin: 10px;
-  background-color: cyan;
+  margin: 20px;
+  background-color: yellow;
 }
 
-#obj1 {
+.objPlastico {
+  height: 9vh;
+  width: 9vh;
+  
+  border-radius: 50%;
+  border: 2px dashed black;
+
+  margin: 20px;
   background-color: red;
 }
-#obj2 {
+.objVidro {
+  height: 9vh;
+  width: 9vh;
+  
+  border-radius: 50%;
+  border: 2px dashed black;
+
+  margin: 20px;
   background-color: green;
 }
-#obj3 {
-  background-color: rebeccapurple;
+.objPapel {
+  height: 9vh;
+  width: 9vh;
+  
+  border-radius: 50%;
+  border: 2px dashed black;
+
+  margin: 20px;
+  background-color: blue;
 }
-#obj4 {
-  background-color: orange;
+
+.objOrganico {
+  height: 9vh;
+  width: 9vh;
+  
+  border-radius: 50%;
+  border: 2px dashed black;
+
+  margin: 20px;
+  background-color: brown;
 }
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
   align-content: center;
 
-  background-color: greenyellow;
+  background-color: #50AA82;
 }
 
-.trash {
+.trashPlastico {
   height: 10vh;
   width: 10vh;
   border: 2px dashed black;
-}
-
-#trash1 {
   background-color: red;
 }
-#trash2 {
+.trashMetal {
+  height: 10vh;
+  width: 10vh;
+  border: 2px dashed black;
+  background-color: yellow;
+}
+.trashVidro {
+  height: 10vh;
+  width: 10vh;
+  border: 2px dashed black;
   background-color: green;
 }
-#trash3 {
-  background-color: rebeccapurple;
+.trashPapel {
+  height: 10vh;
+  width: 10vh;
+  border: 2px dashed black;
+  background-color: blue;
 }
-#trash4 {
-  background-color: orange;
+.trashOrganico {
+  height: 10vh;
+  width: 10vh;
+  border: 2px dashed black;
+  background-color: brown;
 }
