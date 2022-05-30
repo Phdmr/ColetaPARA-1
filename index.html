@@ -15,35 +15,49 @@
   <body>
     <div id="main">
       <div class="topbar">
-        <div id="score">9999</div>
-        <div id="life">☻☻☻☻</div>
+        <div id="score">0000</div>
+        <div id="life" style="font-size:30px">&#128153&#128153&#128153</div>
       </div>
       <div class="objects">
-        <div id="obj4" class="object notSelected"></div>
-        <div id="obj2" class="object notSelected"></div>
-        <div id="obj3" class="object notSelected"></div>
-        <div id="obj1" class="object notSelected"></div>
+        <div class="objPlastico notSelected">
+          <div id="obj1"></div>
+          <div id="obj2"></div>
+          <div id="obj3"></div>
+          <div id="obj4"></div>
+        </div>
+        <div class="objMetal notSelected">
+          <div id="obj1"></div>
+          <div id="obj2"></div>
+          <div id="obj3"></div>
+          <div id="obj4"></div>
+        </div>
+        <div class="objVidro notSelected">
+          <div id="obj1"></div>
+          <div id="obj2"></div>
+          <div id="obj3"></div>
+          <div id="obj4"></div>
+        </div>
+        <div class="objPapel notSelected">
+          <div id="obj1"></div>
+          <div id="obj2"></div>
+          <div id="obj3"></div>
+          <div id="obj4"></div>
+        </div>
+        <div class="objOrganico notSelected">
+          <div id="obj1"></div>
+          <div id="obj2"></div>
+          <div id="obj3"></div>
+          <div id="obj4"></div>
+        </div>
       </div>
       <div class="footer">
-        <div id="trash1" class="trash"></div>
-        <div id="trash2" class="trash"></div>
-        <div id="trash3" class="trash"></div>
-        <div id="trash4" class="trash"></div>
+        <div class="trashPlastico"></div>
+        <div class="trashMetal"></div>
+        <div class="trashVidro"></div>
+        <div class="trashPapel"></div>
+        <div class="trashOrganico"></div>
       </div>
       <button id="goFS">Iniciar Jogo</button>
     </div>
-    <script>
-      var goFS = document.getElementById("goFS");
-      goFS.addEventListener(
-        "click",
-        function () {
-          var videoElement = document
-            .getElementById("main")
-            .requestFullscreen();
-          videoElement.requestFullscreen();
-        },
-        false
-      );
-    </script>
   </body>
 </html>
